@@ -12,13 +12,10 @@ class Solution {
                 k++;
             }
         }
-
         for (int i = 0; i < k; i++)
         {
             nums[i] = ans[i];
-            System.out.print(nums[i] + " ");
         }
-        System.out.println();
         
         return k;
     }
